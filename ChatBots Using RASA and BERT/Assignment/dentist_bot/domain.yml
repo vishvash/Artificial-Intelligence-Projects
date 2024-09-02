@@ -1,0 +1,47 @@
+
+intents:
+  - greet
+  - ask_address
+  - ask_timings
+  - book_appointment
+  - affirm
+  - deny
+
+entities:
+  - time
+  - date
+
+slots:
+  time:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: time
+  date:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: date
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+  utter_address:
+    - text: "Our clinic is located at 123 Dental Street."
+  utter_timings:
+    - text: "We are open from 9 AM to 5 PM, Monday to Saturday."
+  utter_ask_date:
+    - text: "When would you like to book the appointment?"
+  utter_ask_time:
+    - text: "At what time would you prefer?"
+  utter_confirm_appointment:
+    - text: "Your appointment is booked for {date} at {time}."
+  utter_fallback:
+    - text: "I'm sorry, I didn't understand that. Can you please rephrase?"
+
+actions:
+  - action_book_appointment
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: True

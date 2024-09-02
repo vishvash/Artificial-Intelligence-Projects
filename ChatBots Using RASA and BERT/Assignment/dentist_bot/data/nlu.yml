@@ -1,0 +1,61 @@
+
+version: "2.0"
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey there
+  - intent: ask_address
+    examples: |
+      - Where is the clinic located?
+      - What is the address?
+  - intent: ask_timings
+    examples: |
+      - What are your working hours?
+      - When are you open?
+  - intent: book_appointment
+    examples: |
+      - I want to book an appointment
+      - Can I schedule a visit?
+  - intent: affirm
+    examples: |
+      - Yes
+      - Sure
+  - intent: deny
+    examples: |
+      - No
+      - Not now
+
+stories:
+  - story: book an appointment
+    steps:
+      - intent: book_appointment
+      - action: utter_ask_date
+      - intent: inform
+        entities:
+          - date: "2023-12-01"
+      - action: utter_ask_time
+      - intent: inform
+        entities:
+          - time: "10:00 AM"
+      - action: action_book_appointment
+      - action: utter_confirm_appointment
+
+rules:
+  - rule: greet the user
+    steps:
+      - intent: greet
+      - action: utter_greet
+  - rule: provide address
+    steps:
+      - intent: ask_address
+      - action: utter_address
+  - rule: provide timings
+    steps:
+      - intent: ask_timings
+      - action: utter_timings
+  - rule: fallback
+    steps:
+      - intent: nlu_fallback
+      - action: utter_fallback
