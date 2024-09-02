@@ -1,0 +1,58 @@
+Project management methodology is used to drive data science, data mining, machine learning and artificial intelligence kind of projects. There are various project management methodologies/frameworks, KDD(Knowledge Discovery Database process model),CRISP-DM(CRoss Industry Standard Process for Data Mining) and SEMMA(Sample, Explore, Modify, Model and Assess).
+DIKW Pyramid- Data, information, knowledge and wisdom. The risk is high if you take decisions based on data. The risk is extremely low if you take decision based on wisdom. You will have the data in the most raw format. As part of drawing information from the data, we collect the data, preprocess it, disseminate, store, display and protect it. Say you have messages, SMS drawing information from the data. Data and information will give you answers to questions on "What". What is there in the data will be addressed. Then you will move to knowledge .Knowledge will answer the question on "how", how old people use SMS? Knowledge focuses mainly on creation, organise, apply and Transfer. Then wisdom, it is the highest stage one can attain. Wisdom is all about implementing answers to the knowledge step.It answers the questions to "Why".
+It has three types of methodology,KDD,CRISP-DM,SEMMA.
+KDD stands for knowledge discovery databases,it presented way back in the year 1996 by Fayyad
+Knowledge discovery Databases or KDD center around the overall process of knowledge discovery from that data covers the entire life cycle of the data.It includes "how the data are stores","how it is accessed","how algorithms are scaled","how results can be interpreted and visualised".
+There are five(5) steps in KDD,selection,preprocessing,transformation,Data Mining and Evaluation.
+Data from various sources is called heterogeneous.
+Selecting only those samples of data which are relevant for our analysis is called selection.
+After collecting the data,treat outliers,apply domain knowledge and remove irrelevant data fall under preprocessing.Transformation is getting useful features from a high dimensional data.
+Smoothing the data,converting the continuous data to bins and clusters.
+Aggregation is adding the data.Daily data can be added to get monthly data or weekly data.Normalization and standardization is used to remove scales and units,Feature construction.
+Smoothing,aggregation,normalization,standardization and feature constructions are used to transform the data.
+The transformed data is further sent to the data mining algorithms.In Data mining,exploration of data,EDA,graphical techniques,build predictive or classification models.
+Lasly the model is interpreducted and evaluated using some accuracy measures.
+SEMMA are the sequential steps to build machine learning models.
+There are five(5) steps,sample,explore,modify,model,access
+Sample is picking the right amount of subset from a population.In exploration,the data is understood and relationships among the variables.In modify,the data is cleaned and feature engineering is performed.Using the clean data a model will be built in model phase and the model is evaluated in access phase.
+CRISP-DM is established by European Strategic Program on Research in Information Technology initiative with an aim to create an unbiased methodology that is not domain dependent.It was first published in 1999.
+It has six steps,business understanding,data understanding,data preparation,modeling,evaluation and deployment.
+In Business Understanding,there are four (4) submodules.
+Define business probleem,assess and analyze scenarios,define data mining problem and project plan
+
+
+Project management methodology is used to drive data science, data mining, machine learning and artificial intelligence kind of projects. There are various project management methodologies/frameworks, KDD(Knowledge Discovery Database process model),CRISP-DM(CRoss Industry Standard Process for Data Mining) and SEMMA(Sample, Explore, Modify, Model and Assess).
+DIKW Pyramid- Data, information, knowledge and wisdom. The risk is high if you take decisions based on data. The risk is extremely low if you take decision based on wisdom. You will have the data in the most raw format. As part of drawing information from the data, we collect the data, preprocess it, disseminate, store, display and protect it. Say you have messages, SMS drawing information from the data. Data and information will give you answers to questions on "What". What is there in the data will be addressed. Then you will move to knowledge .Knowledge will answer the question on "how", how old people use SMS? Knowledge focuses mainly on creation, organise, apply and Transfer. Then wisdom, it is the highest stage one can attain. Wisdom is all about implementing answers to the knowledge step.It answers the questions to "Why".
+It has three types of methodology,KDD,CRISP-DM,SEMMA.
+KDD stands for knowledge discovery databases,it presented way back in the year 1996 by Fayyad
+Knowledge discovery Databases or KDD center around the overall process of knowledge discovery from that data covers the entire life cycle of the data.It includes "how the data are stores","how it is accessed","how algorithms are scaled","how results can be interpreted and visualised".
+There are five(5) steps in KDD,selection,preprocessing,transformation,Data Mining and Evaluation.
+Data from various sources is called heterogeneous.
+Selecting only those samples of data which are relevant for our analysis is called selection.
+After collecting the data,treat outliers,apply domain knowledge and remove irrelevant data fall under preprocessing.Transformation is getting useful features from a high dimensional data.
+Smoothing the data,converting the continuous data to bins and clusters.
+Aggregation is adding the data.Daily data can be added to get monthly data or weekly data.Normalization and standardization is used to remove scales and units,Feature construction.
+Smoothing,aggregation,normalization,standardization and feature constructions are used to transform the data.
+The transformed data is further sent to the data mining algorithms.In Data mining,exploration of data,EDA,graphical techniques,build predictive or classification models.
+Lasly the model is interpreducted and evaluated using some accuracy measures.
+SEMMA are the sequential steps to build machine learning models.
+There are five(5) steps,sample,explore,modify,model,access
+Sample is picking the right amount of subset from a population.In exploration,the data is understood and relationships among the variables.In modify,the data is cleaned and feature engineering is performed.Using the clean data a model will be built in model phase and the model is evaluated in access phase.
+CRISP-DM is established by European Strategic Program on Research in Information Technology initiative with an aim to create an unbiased methodology that is not domain dependent.It was first published in 1999.
+It has six steps,business understanding,data understanding,data preparation,modeling,evaluation and deployment.
+In Business Understanding,there are four (4) submodules.
+Define business probleem,assess and analyze scenarios,define data mining problem and project plan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
